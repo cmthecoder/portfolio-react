@@ -8,7 +8,7 @@ const ProjectsList = (props) => {
       {props.projects.map(project => {
         return(
           <ul key={project.title}>
-            <li><ProjectPreview project={project.title} /></li>
+            <li><ProjectPreview title={project.title} /></li>
             <li>{project.description}</li>
             <li>{project.image}</li>
             <li>{project.repositoryLink}</li>
