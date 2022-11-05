@@ -1,3 +1,5 @@
+import ProjectPreview from "./ProjectPreview";
+
 const ProjectsList = (props) => {
   console.log("OVER HERE", props.projects)
   return (
@@ -6,7 +8,7 @@ const ProjectsList = (props) => {
       {props.projects.map(project => {
         return(
           <ul key={project.title}>
-            <li>{project.title}</li>
+            <li><ProjectPreview project={project.title} /></li>
             <li>{project.description}</li>
             <li>{project.image}</li>
             <li>{project.repositoryLink}</li>
