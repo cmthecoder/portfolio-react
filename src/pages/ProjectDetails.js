@@ -1,19 +1,18 @@
 import { projects } from "../data/projects";
+import { findProjects } from "../utilities/findProject";
+import { useParams } from "react-router-dom";
 
-const ProjectDetals = () => {
+
+
+const ProjectDetails = () => {
+  let {projectDetails} = useParams()
+  console.log('THIS PROJECT DETAILS', projectDetails)
+  const project = findProjects(projectDetails)
+  console.log('THIS PROJECT', project)
   return (
     <>
-      <h1>{projects[0].title}</h1>
-      <p>{projects[0].description}</p>
-      <img src="" alt="" />
-      <button>GitHub Repo</button>
-      <button>Deployed Site</button>
-      <h1>{projects[1].title}</h1>
-      <p>{projects[1].description}</p>
-      <img src="" alt="" />
-      <button>GitHub Repo</button>
-      <button>Deployed Site</button><h1>{projects[2].title}</h1>
-      <p>{projects[2].description}</p>
+      <h1>{project.title}</h1>
+      <p>{project.description}</p>
       <img src="" alt="" />
       <button>GitHub Repo</button>
       <button>Deployed Site</button>
@@ -21,4 +20,4 @@ const ProjectDetals = () => {
   )
 }
 
-export default ProjectDetals;
+export default ProjectDetails;
