@@ -15,7 +15,7 @@ const ProjectPreview = (props) => {
               {hyphenateWords(props.title)}
           </h3>
         </a>
-        <Link to='/projects/:projectDetails'>
+        <Link to={`/projects/${hyphenateWords(props.title)}`}>
 					<button>
               Learn more
           </button>
