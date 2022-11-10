@@ -1,6 +1,7 @@
 .nav-bar {
   border-bottom: 5px black solid;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
 a {
