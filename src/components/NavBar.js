@@ -4,11 +4,13 @@ import "../styles/NavBar.css"
 const NavBar = () => {
   return (
     <nav class="nav-bar">
-        <Link 
-            to='/'
-        >
-            Christopher Mems
-        </Link>
+        <div class='my-name'>
+            <Link 
+                to='/'
+            >
+                Christopher Mems
+            </Link>
+        </div>
 
         <ul>
             <li>
