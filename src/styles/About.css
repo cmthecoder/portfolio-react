@@ -4,3 +4,10 @@
   align-items: center;
   flex-direction: column;
 }
+
+.about-text {
+  width: 1000px;
+  text-align: justify;
+  /* word-wrap: break-word;
+  display: inline-block; */
+}
