@@ -2,3 +2,18 @@
   border-bottom: 5px black solid;
   margin-bottom: 10px;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
