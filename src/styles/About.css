@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 8%;
 }
 
 .about-text {
@@ -10,4 +11,8 @@
   text-align: justify;
   /* word-wrap: break-word;
   display: inline-block; */
+}
+
+.about-image {
+  margin-bottom: 40px;
 }

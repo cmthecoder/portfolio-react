@@ -6,6 +6,7 @@ import Resume from './pages/Resume'
 import Projects from './pages/Projects'
 import NavBar from './components/NavBar'
 import ProjectDetails from './pages/ProjectDetails'
+import 'animate.css'
 
 
 
