@@ -8,7 +8,4 @@ function findProjects(str){
   return projectData
 }
 
-
-console.log(findProjects('The Flyers Club'))
-
 export {findProjects}

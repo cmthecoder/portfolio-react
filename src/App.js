@@ -7,12 +7,13 @@ import Projects from './pages/Projects'
 import NavBar from './components/NavBar'
 import ProjectDetails from './pages/ProjectDetails'
 import 'animate.css'
+import Footer from './components/Footer'
 
 
 
 function App() {
   return (
-    <>
+    <div className='page-container'>
       <NavBar />
       <Routes>
       <Route path='/' element={<Home />} />
@@ -22,7 +23,8 @@ function App() {
       <Route path='projects' element={<Projects />} />
       <Route path='projects/:projectDetails' element={<ProjectDetails />}/>
       </Routes>
-    </>
+      <Footer />
+    </div>
   );
 }
 

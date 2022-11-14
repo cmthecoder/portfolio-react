@@ -4,7 +4,7 @@ import '../styles/Projects.css'
 
 const Projects = (props) => {
   return (
-    <div class='projects'>
+    <div className='projects'>
       <ProjectsList projects={projects}/>
     </div>
   );

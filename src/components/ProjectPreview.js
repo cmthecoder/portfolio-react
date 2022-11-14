@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import '../styles/ProjectPreview.css'
 
 const ProjectPreview = (props) => {
-  console.log(props)
   return (
     <div>
     <img 
@@ -18,7 +17,7 @@ const ProjectPreview = (props) => {
           </h3>
         </a>
         <Link to={`/projects/${hyphenateWords(props.project.title)}`}>
-					<button class='learn-more'>
+					<button className='learn-more'>
               Learn more
           </button>
         </Link>

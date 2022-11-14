@@ -5,6 +5,4 @@ function hyphenateWords(str){
   }
 }
 
-console.log(hyphenateWords('yy yy'))
-
 export {hyphenateWords}

@@ -1,7 +1,6 @@
 import ProjectPreview from "./ProjectPreview";
 
 const ProjectsList = (props) => {
-  console.log("OVER HERE", props.projects)
   return (
     <>
     <div>

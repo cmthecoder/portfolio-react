@@ -1,0 +1,18 @@
+.footer {
+  background: linear-gradient(to bottom right, #D5DCDC, #12EBDA);
+  padding-top: 3em;
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: auto;
+  border-top: 5px black solid;
+
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 180px;
+}

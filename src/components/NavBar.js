@@ -3,8 +3,8 @@ import "../styles/NavBar.css"
 
 const NavBar = () => {
   return (
-    <nav class="nav-bar">
-        <div class='my-name'>
+    <nav className="nav-bar">
+        <div className='my-name'>
             <Link 
                 to='/'
             >
