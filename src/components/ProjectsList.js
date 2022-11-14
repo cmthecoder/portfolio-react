@@ -2,7 +2,6 @@ import ProjectPreview from "./ProjectPreview";
 
 const ProjectsList = (props) => {
   return (
-    <>
     <div>
       {props.projects.map(project => {
         return(
@@ -12,7 +11,6 @@ const ProjectsList = (props) => {
         )
       })}
     </div>
-  </>
   );
 }
 

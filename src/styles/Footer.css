@@ -3,10 +3,9 @@
   padding-top: 3em;
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 11vh;
   margin-top: auto;
   border-top: 5px black solid;
-
 }
 
 .row {
@@ -15,4 +14,17 @@
   flex-direction: row;
   align-items: center;
   gap: 180px;
+  padding-bottom: 70px;
+}
+
+/* .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+} */
+
+.footer {
+  position: relative;
+  bottom: 0;
 }

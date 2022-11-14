@@ -5,4 +5,5 @@
   flex-direction: column;
   height: 70vh;
   font-size: 23px;
+  min-height: 80vh;
 }
