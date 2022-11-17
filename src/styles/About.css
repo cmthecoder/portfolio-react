@@ -2,18 +2,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  margin-top: 2%;
+  flex-direction: row;
   min-height: 100vh;
 }
 
 .about-text {
   width: 1000px;
   text-align: justify;
-  /* word-wrap: break-word;
-  display: inline-block; */
+  font-size: 47px;
+  
 }
 
-.about-image {
+.about > img {
   margin-bottom: 40px;
+  margin-right: 200px;
 }
