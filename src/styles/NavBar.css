@@ -1,13 +1,13 @@
 .nav-bar {
+  margin: 0;
   border-bottom: 5px black solid;
   margin-bottom: 10px;
-  font-size: 20px;
-  background: linear-gradient(to bottom right, #D5DCDC, #12EBDA);
+  font-size: 30px;
+  background-color: #6CCFF6;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
-.my-name {
-  display: flex;
-  justify-content: center;
-}
+
 
 a {
   text-decoration: none;

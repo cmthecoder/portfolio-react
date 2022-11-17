@@ -4,14 +4,6 @@ import "../styles/NavBar.css"
 const NavBar = () => {
   return (
     <nav className="nav-bar">
-        <div className='my-name'>
-            <Link 
-                to='/'
-            >
-                Christopher Mems
-            </Link>
-        </div>
-
         <ul>
             <li>
                 <Link
@@ -29,6 +21,13 @@ const NavBar = () => {
                 </Link>
             </li>
 
+            <li>
+                <Link
+                    to='/'
+                >
+                    Home
+                </Link>
+            </li>
             <li>
                 <Link
                     to='/resume'
