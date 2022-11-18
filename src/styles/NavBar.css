@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Londrina+Shadow&family=Rubik+Mono+One&display=swap');
+
 .nav-bar {
   margin: 0;
   border-bottom: 5px black solid;
   margin-bottom: 10px;
   font-size: 25px;
+  font-family: 'Rubik Mono One', sans-serif;
   background-color: white;
   padding-top: 2px;
   padding-bottom: 2px;
