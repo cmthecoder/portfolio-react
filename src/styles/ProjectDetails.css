@@ -6,6 +6,7 @@
   padding: 20px;
   font-size: 30px;
   background-image: linear-gradient(to bottom, rgb(115, 120, 213), rgb(228, 150, 41));;
+  height: 82vh;
 }
 
 .project-details h1 {
