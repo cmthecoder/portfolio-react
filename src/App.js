@@ -7,6 +7,7 @@ import Projects from './pages/Projects'
 import NavBar from './components/NavBar'
 import ProjectDetails from './pages/ProjectDetails'
 import 'animate.css'
+import './App.css'
 
 
 
