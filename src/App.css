@@ -3,8 +3,9 @@
 }
 
 body {
-  /* background-image: linear-gradient(to bottom, white, whitesmoke); */
-  background-color: rgb(172, 175, 229);
+  background-image: linear-gradient(to bottom, rgb(115, 120, 213), whitesmoke);
+  /* background-color: rgb(115, 120, 213)
+  ; */
   min-height: 100vh;
 }
 

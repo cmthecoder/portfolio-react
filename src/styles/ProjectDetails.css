@@ -5,13 +5,12 @@
   align-items: center;
   padding: 20px;
   font-size: 30px;
-  background-color: black;
+  background-image: linear-gradient(to bottom, rgb(115, 120, 213), rgb(228, 150, 41));;
 }
-
 
 .project-details h1 {
   margin: 0;
-  color: greenyellow;
+  color: rgb(47, 215, 230);
 }
 .project-details p {
   color: white;
@@ -28,6 +27,6 @@
 
 button {
   background-color: white;
-  border: 5px yellowgreen solid;
+  border: 5px rgb(47, 215, 230) solid;
   border-radius: 20px;
 }
