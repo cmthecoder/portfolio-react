@@ -2,7 +2,7 @@ const projects = [
   {
     title: "Tic-Tac-Toe",
     description: "A two player game of X's and O's where the winner is the first player to have either 3 X's or 3 O's in a row.",
-    image: "https://i.imgur.com/qA5NKFW.png",
+    image: "https://i.imgur.com/iWkvNxN.png",
     repositoryLink: "https://github.com/cmthecoder/ttt-weekend.git",
     deploymentLink: "https://chris-mems-ttt.netlify.app/",
   },
