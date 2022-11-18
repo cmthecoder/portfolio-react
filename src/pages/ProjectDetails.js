@@ -1,6 +1,8 @@
 import { findProjects } from "../utilities/findProject";
 import { useParams } from "react-router-dom";
 import "../styles/ProjectDetails.css"
+import Button from 'react-bootstrap/Button';
+
 
 
 const ProjectDetails = () => {
@@ -11,10 +13,14 @@ const ProjectDetails = () => {
       <h1>{project.title}</h1>
       <p>{project.description}</p>
       <img src={project.image} width='1000px' alt="" />
-      <a href={project.repositoryLink}><button className='repo-link'>GitHub Repo</button></a>
-      <a href={project.deploymentLink}><button className='deployed-link'>Deployed Site</button></a>
+      <a href={project.repositoryLink}><Button className='repo-link' variant="dark">GitHub Repo</Button></a>
+      <a href={project.deploymentLink}><Button className='deployed-link' variant="dark">Deployed Site</Button></a>
+
+
     </div>
   )
 }
+
+
 
 export default ProjectDetails;

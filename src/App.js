@@ -8,6 +8,7 @@ import NavBar from './components/NavBar'
 import ProjectDetails from './pages/ProjectDetails'
 import 'animate.css'
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
