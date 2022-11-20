@@ -15,8 +15,6 @@ const ProjectDetails = () => {
       <img src={project.image} width='1000px' alt="" />
       <a href={project.repositoryLink}><Button className='repo-link' variant="dark">GitHub Repo</Button></a>
       <a href={project.deploymentLink}><Button className='deployed-link' variant="dark">Deployed Site</Button></a>
-
-
     </div>
   )
 }
