@@ -3,7 +3,7 @@ import "../styles/Contact.css"
 const Contact = () => {
   return (
   <div className='contact animate__animated animate__fadeInUp'>
-    <h1>Reach out if you'd like to work with me!</h1>
+    <h1 className="contact-text">Reach out if you'd like to work with me!</h1>
     <div className='contact-info'>
       <div>
         <img src="icons8-envelope-100.png" alt="mail" />
