@@ -5,13 +5,13 @@ import Button from 'react-bootstrap/Button';
 
 const ProjectPreview = (props) => {
   return (
-    <div>
+    <div className="project-preview">
     <img 
         src={props.project.image} width='1000px' 
         alt={props.project.title}
     />
 
-    <section>
+    <section className="learn-project">
         <a href={`/projects/${hyphenateWords(props.project.title)}`}>
           <h3>
               {hyphenateWords(props.project.title)}
