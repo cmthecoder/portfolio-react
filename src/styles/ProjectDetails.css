@@ -31,3 +31,22 @@ button {
   border: 5px rgb(47, 215, 230) solid;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 600px) {
+  
+  .project-details {
+    font-size: 55%;
+  }
+
+  .project-details > img {
+    width: 100%;
+  }
+
+  .repo-link {
+    margin: 5px 0 5px 0;
+  }
+
+  .project-details > p {
+    font-size: 120%;
+  }
+}
