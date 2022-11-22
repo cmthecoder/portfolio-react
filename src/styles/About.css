@@ -28,17 +28,17 @@
     margin: 0;
     text-align: justify;
     width: 90%;
+    height: 100vh;
   }
 
-  .about {
+  /* .about {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+  } */
 
   .about > img {
-    margin-left: 1%;
     width: 70%;
   }
 }
