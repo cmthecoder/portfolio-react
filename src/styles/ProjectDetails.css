@@ -32,6 +32,47 @@ button {
   border-radius: 20px;
 }
 
+
+
+
+@media screen and (min-width: 1024px) {
+  
+  .project-details {
+    font-size: 55%;
+  }
+
+  .project-details > img {
+    width: 60%;
+  }
+
+  .repo-link {
+    margin: 5px 0 5px 0;
+  }
+
+  .project-details > p {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 601px) {
+  .project-details {
+    font-size: 45%;
+  }
+
+  .project-details > img {
+    width: 70%;
+  }
+
+  .repo-link {
+    margin: 5px 0 5px 0;
+  }
+
+  .project-details > p {
+    font-size: 250%;
+    text-align: justify;
+  }
+}
+
 @media screen and (max-width: 600px) {
   
   .project-details {
