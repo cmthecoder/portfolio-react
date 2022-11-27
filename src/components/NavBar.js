@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 import "../styles/NavBar.css"
-
+import { ImHome } from "react-icons/im";
+import { ImPhone } from "react-icons/im";
+import { VscAccount } from "react-icons/vsc";
 
 const NavBar = () => {
   return (
@@ -10,7 +12,7 @@ const NavBar = () => {
                 <Link
                     to='/about'
                 >
-                    About
+                    <VscAccount />
                 </Link>
             </li>
 
@@ -18,7 +20,7 @@ const NavBar = () => {
                 <Link
                     to='/contact'
                 >
-                    Contact
+                    <ImPhone />
                 </Link>
             </li>
 
@@ -26,7 +28,7 @@ const NavBar = () => {
                 <Link
                     to='/'
                 >
-                    Home
+                    <ImHome />
                 </Link>
             </li>
             <li>
