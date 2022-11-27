@@ -6,16 +6,13 @@ const Contact = () => {
     <h1 className="contact-text">Reach out if you'd like to work with me!</h1>
     <div className='contact-info'>
       <div>
-        <img src="icons8-envelope-100.png" alt="mail" />
-        <a href="mailto:Christopher.mems@yahoo.com">Christopher.mems@yahoo.com</a>
+        <a href="mailto:Christopher.mems@yahoo.com"><img src="icons8-envelope-100.png" alt="mail" /></a>
       </div>
       <div>
-        <img src="icons8-linkedin-96.png" width='110' alt="LinkedIn" />
-        <a href="http://www.linkedin.com/in/christopher-mems">LinkedIn</a>
+        <a href="http://www.linkedin.com/in/christopher-mems"><img src="icons8-linkedin-96.png" width='110' alt="LinkedIn" /></a>
       </div>
       <div>
-        <img src="icons8-github.svg" width='110'  alt="Github" />
-        <a href="https://github.com/cmthecoder">GitHub</a>
+        <a href="https://github.com/cmthecoder"><img src="icons8-github.svg" width='110'  alt="Github" /></a>
       </div>
     </div>
   </div>

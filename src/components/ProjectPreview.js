@@ -12,14 +12,12 @@ const ProjectPreview = (props) => {
     />
 
     <section className="learn-project">
-        <a href={`/projects/${hyphenateWords(props.project.title)}`}>
-          <h3>
-              {hyphenateWords(props.project.title)}
-          </h3>
-        </a>
-        <Link to={`/projects/${hyphenateWords(props.project.title)}`}>
-          <Button className='learn-more' variant="dark">Learn More</Button>
-        </Link>
+      <h3>
+          {hyphenateWords(props.project.title)}
+      </h3>
+      <Link to={`/projects/${hyphenateWords(props.project.title)}`}>
+        <Button className='learn-more' variant="dark">Learn More</Button>
+      </Link>
     </section>
 </div>
   )
