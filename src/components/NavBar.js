@@ -3,6 +3,9 @@ import "../styles/NavBar.css"
 import { ImHome } from "react-icons/im";
 import { ImPhone } from "react-icons/im";
 import { VscAccount } from "react-icons/vsc";
+import { GrDocument } from "react-icons/gr";
+import { GrProjects } from "react-icons/gr";
+
 
 const NavBar = () => {
   return (
@@ -35,7 +38,7 @@ const NavBar = () => {
                 <Link
                     to='/resume'
                 >
-                    Resume
+                    <GrDocument />
                 </Link>
             </li>
 
@@ -43,7 +46,7 @@ const NavBar = () => {
                 <Link
                     to='/projects'
                 >
-                    Projects
+                    <GrProjects />
                 </Link>
             </li>
         </ul>
