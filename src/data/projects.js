@@ -9,7 +9,7 @@ const projects = [
   {
     title: "The Flyers Club",
     description: "The Flyers Club is a community where people who share a passion for aviation can meet and share their fun adventures or discuss changes in the world of aviation.",
-    image: "https://i.imgur.com/O42sZtZ.png",
+    image: "https://i.imgur.com/UXZDB6L.png",
     repositoryLink: "https://github.com/cmthecoder/the-flyers-club.git",
     deploymentLink: "https://the-flyers-club-chris-mems.fly.dev/",
   },
@@ -23,7 +23,7 @@ const projects = [
   {
     title: "Tic-Tac-Toe",
     description: "A two player game of X's and O's where the winner is the first player to have either 3 X's or 3 O's in a row.",
-    image: "https://i.imgur.com/iWkvNxN.png",
+    image: "https://i.imgur.com/bl172gU.png",
     repositoryLink: "https://github.com/cmthecoder/ttt-weekend.git",
     deploymentLink: "https://chris-mems-ttt.netlify.app/",
   },

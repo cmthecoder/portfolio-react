@@ -5,7 +5,7 @@
   margin-bottom: 10px;
   font-family: 'Rubik Mono One', sans-serif;
   background-color: white;
-  padding-top: 8px;
+  padding-top: 12px;
 }
 
 
@@ -22,4 +22,9 @@ ul {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  font-size: 20px;
+}
+
+.nav-icons a {
+  color: black;
 }

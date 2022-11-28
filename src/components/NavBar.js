@@ -10,7 +10,7 @@ import { GrProjects } from "react-icons/gr";
 const NavBar = () => {
   return (
     <nav className="nav-bar">
-        <ul>
+        <ul className="nav-icons">
             <li>
                 <Link
                     to='/about'
