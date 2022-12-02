@@ -16,7 +16,6 @@ const ProjectDetails = () => {
       <a href={project.repositoryLink}><Button className='repo-link' variant="dark">GitHub Repo</Button></a>
       <a href={project.deploymentLink}><Button className='deployed-link' variant="dark">Deployed Site</Button></a>
       <Link to='/projects'><Button className='return-link' variant="dark">Back</Button></Link>
-      {/* <a href="/projects"><Button className='return-link' variant="dark">Back</Button></a> */}
     </div>
   )
 }
