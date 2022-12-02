@@ -4,14 +4,19 @@
   align-items: center;
   flex-direction: column;
   font-size: 50px;
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 .home-view > img {
+  margin-top: 30px;
   border: 8px solid black;
-  border-radius: 380px;
+  border-radius: 50%;
 }
 
+.and {
+  display: flex;
+  justify-content: center;
+}
 
 @media screen and (min-width: 1024px) {
 
@@ -30,11 +35,12 @@
 
 @media screen and (max-width: 600px) {
   .my-name, .role {
-    font-size: 35px;
+    font-size: 26px;
   }
   
   .home-view > img {
     width: 65%;
+    height: 365px;
     border-radius: 1px solid black;
 
   }

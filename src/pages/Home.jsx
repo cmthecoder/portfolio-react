@@ -4,9 +4,9 @@ const Home = () => {
   return (
     <div>
       <div className="home-view">
-        <h1 className='my-name'>Christopher Mems</h1>
-        <img src="https://i.imgur.com/0zmtqgP.jpg" width="450" alt=""/>
-        <h2 className="role">Software Engineer</h2>
+        <h1 className='my-name'>Hi, my name is Christopher Mems <span className="and">&</span></h1>
+        <h2 className="role">I'm a Software Engineer</h2>
+        <img src="IMG_7119.png" width="330" height='480' alt=""/>
       </div>
     </div>
   );
