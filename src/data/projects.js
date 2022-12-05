@@ -7,6 +7,13 @@ const projects = [
     deploymentLink: "https://chris-mems-finch-collector.herokuapp.com/",
   },
   {
+    title: "myProps",
+    description: "myProps is a website built for property managers to easily keep track of properties that they manage. Our goal is to keep information private to the user, so nobody else has access to their information. Accessibility is a key component to myProps, so navigation throughout the site should be clean, easy, and precise. Don't forget to log all important information regarding: Listings, Tenants & Work-Requests!",
+    image: "https://i.imgur.com/9AkDs5b.png",
+    repositoryLink: "https://github.com/cmthecoder/myProps-front-end.git",
+    deploymentLink: "https://mypropsmanagement.netlify.app/",
+  },
+  {
     title: "The Flyers Club",
     description: "The Flyers Club is a community where people who share a passion for aviation can meet and share their fun adventures or discuss changes in the world of aviation.",
     image: "https://i.imgur.com/UXZDB6L.png",
