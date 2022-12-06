@@ -34,6 +34,7 @@ const NavBar = () => {
                     <ImHome />
                 </Link>
             </li>
+            
             <li>
                 <Link
                     to='/resume'

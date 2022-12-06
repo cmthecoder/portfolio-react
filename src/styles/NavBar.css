@@ -21,10 +21,25 @@ a:hover {
 ul {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   list-style: none;
   font-size: 20px;
+  margin-right: 60px;
 }
 
 .nav-icons a {
   color: black;
+}
+
+@media screen and (max-width: 600px) {
+  
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    margin-right: 38px;
+    gap: 58px;
+  }
 }
