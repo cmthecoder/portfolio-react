@@ -75,6 +75,7 @@
 
   .about > img {
     width: 60%;
+    margin: 15px 0 15px 0;
   }
 
   .about {
@@ -82,5 +83,6 @@
     justify-content: center;
     flex-direction: column;
     padding-bottom: 10px;
+    
   }
 }
