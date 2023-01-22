@@ -1,12 +1,5 @@
 const projects = [
   {
-    title: "The Finch Collector",
-    description: "The Finch Collector is a fun app for those who want to share something about finches that they have or have seen.",
-    image: "https://i.imgur.com/qTWX38R.png",
-    repositoryLink: "https://github.com/cmthecoder/finch-collector",
-    deploymentLink: "https://chris-mems-finch-collector.herokuapp.com/",
-  },
-  {
     title: "myProps",
     description: "myProps is a website built for property managers to easily keep track of properties that they manage. Our goal is to keep information private to the user, so nobody else has access to their information. Accessibility is a key component to myProps, so navigation throughout the site should be clean, easy, and precise. Don't forget to log all important information regarding: Listings, Tenants & Work-Requests!",
     image: "https://i.imgur.com/9AkDs5b.png",
@@ -19,6 +12,13 @@ const projects = [
     image: "https://i.imgur.com/UXZDB6L.png",
     repositoryLink: "https://github.com/cmthecoder/the-flyers-club.git",
     deploymentLink: "https://the-flyers-club-chris-mems.fly.dev/",
+  },
+  {
+    title: "The Finch Collector",
+    description: "The Finch Collector is a fun app for those who want to share something about finches that they have or have seen.",
+    image: "https://i.imgur.com/qTWX38R.png",
+    repositoryLink: "https://github.com/cmthecoder/finch-collector",
+    deploymentLink: "https://chris-mems-finch-collector.herokuapp.com/",
   },
   {
     title: "Connect Four",
