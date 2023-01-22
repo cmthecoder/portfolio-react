@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "myProps",
-    description: "myProps is a website built for property managers to easily keep track of properties that they manage. Our goal is to keep information private to the user, so nobody else has access to their information. Accessibility is a key component to myProps, so navigation throughout the site should be clean, easy, and precise. Don't forget to log all important information regarding: Listings, Tenants & Work-Requests!",
+    description: "myProps is a website built for property managers to easily keep track of properties that they manage. Our goal is to keep information private to the user, so nobody else has access to their information. Accessibility is a key component to myProps, so navigation throughout the site should be clean, easy, and precise. Don't forget to log all important information regarding: Listings, Tenants, & Work-Requests!",
     image: "https://i.imgur.com/9AkDs5b.png",
     repositoryLink: "https://github.com/cmthecoder/myProps-front-end.git",
     deploymentLink: "https://mypropsmanagement.netlify.app/",
